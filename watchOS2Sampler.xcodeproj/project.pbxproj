@@ -495,7 +495,7 @@
 				TargetAttributes = {
 					8AA60E251B28E20300BE313B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = 65T9QSM7GY;
 						LastSwiftMigration = 1240;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -508,15 +508,17 @@
 					};
 					8AA60E391B28E20300BE313B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 65T9QSM7GY;
 						TestTargetID = 8AA60E251B28E20300BE313B;
 					};
 					8AA60E441B28E20300BE313B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 65T9QSM7GY;
 						TestTargetID = 8AA60E251B28E20300BE313B;
 					};
 					8AA60E4D1B28E20300BE313B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = 65T9QSM7GY;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -525,7 +527,7 @@
 					};
 					8AA60E5C1B28E20300BE313B = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 9Z86A4AWDE;
+						DevelopmentTeam = 65T9QSM7GY;
 						LastSwiftMigration = 1240;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -835,9 +837,10 @@
 				CODE_SIGN_ENTITLEMENTS = "watchOS2Sampler WatchKit Extension/watchOS2Sampler WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = "watchOS2Sampler WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.watchapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2.watchapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -858,9 +861,10 @@
 				CODE_SIGN_ENTITLEMENTS = "watchOS2Sampler WatchKit Extension/watchOS2Sampler WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = "watchOS2Sampler WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.watchapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2.watchapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -880,9 +884,10 @@
 				CODE_SIGN_ENTITLEMENTS = "watchOS2Sampler WatchKit App/watchOS2Sampler WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				IBSC_MODULE = watchOS2Sampler_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS2Sampler WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2.watchapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -900,9 +905,10 @@
 				CODE_SIGN_ENTITLEMENTS = "watchOS2Sampler WatchKit App/watchOS2Sampler WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				IBSC_MODULE = watchOS2Sampler_WatchKit_Extension;
 				INFOPLIST_FILE = "watchOS2Sampler WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.watchapp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2.watchapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -919,10 +925,11 @@
 				CODE_SIGN_ENTITLEMENTS = watchOS2Sampler/watchOS2Sampler.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2Sampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
@@ -936,10 +943,11 @@
 				CODE_SIGN_ENTITLEMENTS = watchOS2Sampler/watchOS2Sampler.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2Sampler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2;
+				PRODUCT_BUNDLE_IDENTIFIER = io.globalride.sampler.wos2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
@@ -950,6 +958,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2SamplerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.Tests;
@@ -962,6 +971,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2SamplerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shu223.sampler.wos2.Tests;
@@ -973,6 +983,7 @@
 		8AA60E821B28E20300BE313B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2SamplerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shu223..sampler.wos2.UITests;
@@ -985,6 +996,7 @@
 		8AA60E831B28E20300BE313B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 65T9QSM7GY;
 				INFOPLIST_FILE = watchOS2SamplerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shu223..sampler.wos2.UITests;

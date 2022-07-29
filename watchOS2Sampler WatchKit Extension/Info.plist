@@ -32,6 +32,11 @@
 		<string>CLKComplicationFamilyUtilitarianLarge</string>
 		<string>CLKComplicationFamilyCircularSmall</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -42,6 +47,8 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app includes samples to use HealthKit data.</string>
 	<key>RemoteInterfacePrincipalClass</key>
 	<string>$(PRODUCT_MODULE_NAME).InterfaceController</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -50,12 +57,5 @@
 	</array>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>This app includes samples to use HealthKit data.</string>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 </dict>
 </plist>
